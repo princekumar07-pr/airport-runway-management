@@ -1,0 +1,8 @@
+{
+  "name": "arms-airport-runway-management",
+  "version": "1.0.0",
+  "description": "Student prototype for OS + DBMS PBL: runway scheduling, locking, queues, transactions, logs.",
+  "main": "src/server.js",
+  "scripts": {"start": "node src/server.js", "dev": "node --watch src/server.js"},
+  "dependencies": {"dotenv": "^16.4.7", "express": "^4.21.2", "mysql2": "^3.14.0"}
+}
